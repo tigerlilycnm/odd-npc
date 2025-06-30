@@ -1,4 +1,4 @@
-import './npcTables.js';
+import './npctables.js';
 
 export function generateNPC() {
   const random = (arr) => arr[Math.floor(Math.random() * arr.length)];
