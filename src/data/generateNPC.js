@@ -1,6 +1,6 @@
 import {
   races, roles, quirks, secrets, voices
-} from './npctables.js';
+} from './npcTables.js';
 
 export function generateNPC() {
   const random = (arr) => arr[Math.floor(Math.random() * arr.length)];
