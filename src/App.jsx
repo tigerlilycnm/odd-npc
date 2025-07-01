@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">🧙 The Odd NPC</h1>
+      <h1 className="app-title">The Odd NPC</h1>
       <button
         onClick={() => setNpc(generateNPC())}
         className="generate-button"
@@ -20,7 +20,7 @@ function App() {
 
       <footer className="app-footer">
         <a href="https://ko-fi.com/connie72688" target="_blank" rel="noopener noreferrer">
-          ☕ Like this NPC? Tip me on Ko-fi
+          Like this NPC? Tip me on Ko-fi
         </a>
       </footer>
     </div>
